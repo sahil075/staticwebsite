@@ -19,8 +19,8 @@ pipeline {
             steps { 
                 echo "Deploying to S3"
                 echo "AWS Region: ${AWS_DEFAULT_REGION}"
-                echo "Deploying file: ./index.html"
-                sh 'aws s3 cp ./index.html s3://botshotsahil.live --region ap-south-1'
+                echo "Deploying file: ./index2.html"
+                sh 'aws s3 cp ./index2.html s3://botshotsahil.live --region ap-south-1'
             } 
         }
     }
